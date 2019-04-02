@@ -9,13 +9,13 @@ public class Ability implements Serializable
 {
 	public float wpRatio;
 	public float cpRatio;
-	public int damageAbility;
+	public int[] abilityDamage = new int[5];
 
-	public Ability(float wpRatio, float cpRatio, int damageAbility)
+	public Ability(float wpRatio, float cpRatio, int[] abilityDamage)
 	{
 		this.wpRatio = wpRatio;
 		this.cpRatio = cpRatio;
-		this.damageAbility = damageAbility;
+		this.abilityDamage = abilityDamage;
 	}
 	public float getWpRatio()
 	{
@@ -25,8 +25,8 @@ public class Ability implements Serializable
 	{
 		return cpRatio;
 	}
-	public int damageAbility()
+	public int[] getAbilityDamage()
 	{
-		return damageAbility;
+		return abilityDamage;
 	}
 }

@@ -55,9 +55,9 @@ public class Hero implements Serializable
 	//Methods start --------------
 	private void createAbility()
 	{
-		heroeAbilies.add(new Ability(/*read*/0.8,1.0,500));
-		heroeAbilies.add(new Ability(/*read*/0.8,1.0,500));
-		heroeAbilies.add(new Ability(/*read*/0.8,1.0,500));
+		heroeAbilies.add(new Ability(/*read*/0.8,1.0,200,300,400,500,600));
+		heroeAbilies.add(new Ability(/*read*/0.8,1.0,200,300,400,500,600));
+		heroeAbilies.add(new Ability(/*read*/0.8,1.0,200,300,400,500,600));
 	}
 	//Methods end ----------------
 }
