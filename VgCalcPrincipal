@@ -1,0 +1,28 @@
+/*
+Autor: Chuy BC
+Fecha de inicio: 4/2/19
+Fecha de terminación: ~
+Objetivo del Programa:class hero vainglory
+*/
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+public class VgCalcPrincipal
+{
+  ArrayList<Hero> heroes  = new ArrayList<Hero>();
+
+  //Methods start --------------
+  public void createHero()
+  {
+    Ability[] adagioAby = {heroAblty.get(1)};
+    heroes.add(new Hero("Adagio",3500.0,150.0,50.0,70.0,adagioAby));
+    Hero.createAbility(); //call Hero create Ability method
+
+
+  }
+  //Methods end ---------------
+
+}
